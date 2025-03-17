@@ -11,6 +11,12 @@ function addTodo() {
     input.value = "";
 }
 
+function DltTodo()
+{
+localStorage.clear()
+location.reload()
+}
+
 function createTaskElement(task) {
     let li = document.createElement("li");
 
